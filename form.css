@@ -1,0 +1,84 @@
+#describtion,
+#head-p {
+  text-align: center;
+  color: white;
+}
+#describtion {
+  font-size: 30px;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  font-weight: normal;
+}
+#head-p {
+  font-size: 20px;
+  font-weight: lighter;
+  font-style: italic;
+  margin-top: 5px;
+}
+body {
+  height: 120%;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(
+      0deg,
+      rgba(63, 64, 140, 0.6),
+      rgba(63, 64, 140, 0.6)
+    ),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+form {
+  /* background-color: #252545; */
+  background: linear-gradient(
+    0deg,
+    rgba(37, 37, 69, 0.9),
+    rgba(37, 37, 69, 0.9)
+  );
+  color: white;
+  width: 62%;
+  margin: auto;
+  padding-left: 4px;
+  padding: 20px;
+
+  font-size: 22px;
+  border-radius: 4px;
+}
+.container {
+  margin: auto;
+}
+#form-groub {
+  margin: 20px;
+}
+.label {
+  display: block;
+  padding: 5px;
+}
+.formcontrol {
+  width: 92%;
+  /* height: 30px; */
+  padding: 8px;
+  border-radius: 7px;
+  font-size: 20px;
+
+  outline: none;
+}
+.formcontrol:focus {
+  border: 3px solid blue;
+}
+#sub {
+  width: 97%;
+  height: 50px;
+  padding: 7px;
+  background-color: #37af65;
+  color: white;
+  margin: auto;
+  font-size: 20px;
+  border: none;
+  border-radius: 2px;
+}
+textarea {
+  padding: 7px;
+  width: 95%;
+  font-size: 20px;
+  border-radius: 2px;
+}
