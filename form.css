@@ -55,11 +55,9 @@ form {
 }
 .formcontrol {
   width: 92%;
-  /* height: 30px; */
   padding: 8px;
   border-radius: 7px;
   font-size: 20px;
-
   outline: none;
 }
 .formcontrol:focus {
@@ -82,3 +80,57 @@ textarea {
   font-size: 20px;
   border-radius: 2px;
 }
+@media (max-width: 414px) {
+  #describtion {
+    font-size: 2em;
+  }
+  #head-p {
+    font-size: 1em;
+  }
+  form {
+    width: 90%;
+  }
+  #form-groub {
+    margin: 10px;
+  }
+  .formcontrol {
+    width: 92%;
+    font-size: 20px;
+  }
+  #sub {
+    width: 100%;
+  }
+}
+@media (max-width: 300px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  #describtion {
+    font-size: 1.08em;
+    font-weight: bolder;
+  }
+  #head-p {
+    font-size: 0.9em;
+    text-align: center;
+    padding: 2%;
+  }
+  form {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0;
+  }
+  #form-groub {
+    margin: 10px;
+    font-size: 0.9em;
+  }
+  .formcontrol {
+    width: 90%;
+    font-size: 15px;
+  }
+  #sub {
+    width: 100%;
+  }
+}
+/* https://jumpy-aromatic-lifter.glitch.me/ */
