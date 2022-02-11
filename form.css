@@ -80,22 +80,44 @@ textarea {
   font-size: 20px;
   border-radius: 2px;
 }
-@media (max-width: 414px) {
+@media (max-width: 1000px) {
   #describtion {
-    font-size: 2em;
+    font-size: 2.09em;
   }
   #head-p {
-    font-size: 1em;
+    font-size: 1.09em;
+  }
+  form {
+    width: 92%;
+  }
+  #form-groub {
+    margin: 11px;
+  }
+  .formcontrol {
+    width: 92%;
+    font-size: 20px;
+  }
+  #sub {
+    width: 97%;
+  }
+}
+@media (max-width: 414px) {
+  #describtion {
+    font-size: 1.5em;
+  }
+  #head-p {
+    font-size: 0.9em;
   }
   form {
     width: 90%;
   }
   #form-groub {
     margin: 10px;
+    font-size: 15px;
   }
   .formcontrol {
     width: 92%;
-    font-size: 20px;
+    font-size: 17px;
   }
   #sub {
     width: 100%;
@@ -108,7 +130,6 @@ textarea {
   }
   #describtion {
     font-size: 1.08em;
-    font-weight: bolder;
   }
   #head-p {
     font-size: 0.9em;
@@ -123,10 +144,13 @@ textarea {
   }
   #form-groub {
     margin: 10px;
-    font-size: 0.9em;
+    font-size: 0.6em;
   }
   .formcontrol {
     width: 90%;
+    font-size: 12px;
+  }
+  textarea {
     font-size: 15px;
   }
   #sub {
